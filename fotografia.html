@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Fotografía - DeLaCream Studio</title>
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <a href="index.html"><img src="images/sacro-logo.jpg" alt="Logo"></a>
+    <h1>Fotografía</h1>
+    <div class="menu">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</header>
+
+<nav id="mobileMenu" class="mobile-menu">
+  <a href="productos.html">Productos</a>
+  <a href="joyeria.html">Joyería</a>
+  <a href="index.html#contactForm">Formulario</a>
+</nav>
+
+<section class="text-section">
+  <h1>Fotografía</h1>
+  <p>Explora una selección de imágenes capturadas por nuestro estudio.</p>
+</section>
+
+<section class="galeria-container">
+  <div class="galeria-grid">
+
+    
+    <div class="galeria-item">
+      <img src="images/foto-beckham.jpg" alt="Foto 1">
+      <div class="galeria-hover">Ver más</div>
+      <div class="foto-descripcion">
+        <h3>Elegancia Urbana</h3>
+        <ul>
+          <li>Estilo clásico moderno</li>
+          <li>Luces suaves y profundas</li>
+          <li>Composición equilibrada</li>
+        </ul>
+      </div>
+    </div>
+
+    
+    <div class="galeria-item">
+      <img src="images/foto-bro-mano.jpg" alt="Foto 2">
+      <div class="galeria-hover">Ver más</div>
+      <div class="foto-descripcion">
+        <h3>Hermandad & Fuerza</h3>
+        <ul>
+          <li>Retrato espontáneo</li>
+          <li>Gestos que cuentan historias</li>
+          <li>Contraste natural</li>
+        </ul>
+      </div>
+    </div>
+
+    
+    <div class="galeria-item">
+      <img src="images/foto-cocina.jpg" alt="Foto 3">
+      <div class="galeria-hover">Ver más</div>
+      <div class="foto-descripcion">
+        <h3>Calidez Cotidiana</h3>
+        <ul>
+          <li>Ambiente íntimo</li>
+          <li>Colores tierra</li>
+          <li>Momentos reales</li>
+        </ul>
+      </div>
+    </div>
+
+   
+    <div class="galeria-item">
+      <img src="images/foto-mujer.jpg" alt="Foto 4">
+      <div class="galeria-hover">Ver más</div>
+      <div class="foto-descripcion">
+        <h3>Retrato Atemporal</h3>
+        <ul>
+          <li>Fuerza femenina</li>
+          <li>Mirada penetrante</li>
+          <li>Estética editorial</li>
+        </ul>
+      </div>
+    </div>
+
+    
+    <div class="galeria-item">
+      <img src="images/foto-shoes.jpg" alt="Foto 5">
+      <div class="galeria-hover">Ver más</div>
+      <div class="foto-descripcion">
+        <h3>Expresión Street</h3>
+        <ul>
+          <li>Movimiento urbano</li>
+          <li>Composición dinámica</li>
+          <li>Detalles con actitud</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-section">
+    <h3>Sobre nosotros</h3>
+    <p>Con un estilo que dices que C.R.E.A.M este...</p>
+  </div>
+  <div class="footer-section">
+    <h3>Contacto</h3>
+    <p>Email: nofakehoney@delacream.com</p>
+    <p>WhatsApp: +54 1166837887</p>
+  </div>
+  <div class="footer-section">
+    <h3>Síguenos</h3>
+    <a href="#">Instagram</a>
+    <a href="#">TikTok</a>
+  </div>
+</footer>
+
+<script>
+  const menuBtn = document.querySelector('.menu');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
+

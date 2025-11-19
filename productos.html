@@ -1,176 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Productos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Productos - DeLaCream Studio</title>
 </head>
 <body>
-    <header>
 
-        <div class="navbar">
-          
-            <a href="index.html"><img src="images/sacro logo.jpg" alt="Logo"></a>
-      
-         
-          <h1>Productos</h1>
-      
-         
-          <div class="menu">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-        </div>
-      
-      </header>
+<header>
+  <div class="navbar">
+    <a href="index.html"><img src="images/sacro-logo.jpg" alt="Logo"></a>
+    <h1>Productos</h1>
+    <div class="menu">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</header>
 
-      <br>
-      <section>
-        <div class="imagenes1">
+<nav id="mobileMenu" class="mobile-menu">
+  <a href="productos.html">Productos</a>
+  <a href="joyeria.html">Joyería</a>
+  <a href="index.html#contactForm">Formulario</a>
+</nav>
 
-     <img src="images/Producto 1 guantes.jpg" alt="">
+<section class="text-section">
+  <h1>Diseño fourTwty</h1>
+  <p>Descubre nuestra colección completa de productos de diseño industrial.</p>
 
-     <div class="productos">
-    <h2 style="text-align: center;">Guantes</h2>
-    <p style="text-align: center;"> Guantes Nike blancos, hechos en tela</p>
-     </div>
-     
-     </div> 
-     </section>
+  <div class="cards-section">
+    <div class="card">
+      <img src="images/prod-1o-pañuelo.jpg" alt="Producto 1">
+      <h3>Honey</h3>
+      <p>Seda limpia, combinable two times twenty ..Sesh..</p>
+      <span class="precio">$ 30.000</span>
+    </div>
 
+    <div class="card">
+      <img src="images/productos-2.jpg" alt="Producto 2">
+      <h3>Sacro</h3>
+      <p>Mask - 36 chambers C.R.E.A.M. typ shi ..Sesh..</p>
+      <span class="precio">$ 160.000</span>
+    </div>
 
-     <br>
-     <section>
-       <div class="imagenes1">
-
-        <div class="productos">
-            <h2 style="text-align: center;">Casco </h2>
-            <p style="text-align: center;">Casco para moto blanco con estampado hecho a mano</p>
-             </div>
-
-    <img src="images/Producto 2 casco.jpg" alt="">
-
-    </div> 
-    </section>
-
-    <br>
-    <section>
-      <div class="imagenes1">
-
-   <img src="images/productos 3 bici.jpg" alt="">
-
-   <div class="productos">
-  <h2 style="text-align: center;">Bicicleta</h2>
-  <p style="text-align: center;">Bicicleta tallada a mano, con estilo japonés</p>
-   </div>
-   
-   </div> 
-   </section>
-
-
-   <br>
-   <section>
-     <div class="imagenes1">
-
-      <div class="productos">
-          <h2 style="text-align: center;">Skymask</h2>
-          <p style="text-align: center;">Skymask voluminosa, tela de gamusa y blanca</p>
-           </div>
-
-  <img src="images/Producto 4 skymask.jpg" alt="">
-
-  </div> 
-  </section>
-
-  <br>
-  <section>
-    <div class="imagenes1">
-
- <img src="images/producto 5 goggles.jpg" alt="">
-
- <div class="productos">
-<h2 style="text-align: center;">Goggles</h2>
-<p style="text-align: center;"> Googles tipo motocross, para deportes o moda</p>
- </div>
- 
- </div> 
- </section>
-
-
- <br>
- <section>
-   <div class="imagenes1">
-
-    <div class="productos">
-        <h2 style="text-align: center;">gafas</h2>
-        <p style="text-align: center;">Sunglasses Sacro for styling</p>
-         </div>
-
-<img src="images/producto 6 gafas.jpg" alt="">
-
-</div> 
+    <div class="card">
+      <img src="images/productos-3-bici.jpg" alt="Producto 3">
+      <h3>Gass</h3>
+      <p>Bike in Baires - Japanese Yankee ..Sesh..</p>
+      <span class="precio">$ 20.000</span>
+    </div>
+  </div>
 </section>
 
-<br>
-<section>
-  <div class="imagenes1">
+<footer class="footer">
+  <div class="footer-section">
+    <h3>Sobre nosotros</h3>
+    <p>Con un estilo que dices que C.R.E.A.M este...</p>
+  </div>
+  <div class="footer-section">
+    <h3>Contacto</h3>
+    <p>Email: nofakehoney@delacream.com</p>
+    <p>WhatsApp: +54 1166837887</p>
+  </div>
+  <div class="footer-section">
+    <h3>Síguenos</h3>
+    <a href="#">Instagram</a>
+    <a href="#">TikTok</a>
+  </div>
+</footer>
 
-<img src="images/producto 7 vest.jpg" alt="">
+<script>
+  const menuBtn = document.querySelector('.menu');
+  const mobileMenu = document.getElementById('mobileMenu');
 
-<div class="productos">
-<h2 style="text-align: center;">Vest</h2>
-<p style="text-align: center;">Chaleco labrado de cuero negro</p>
-</div>
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+  });
+</script>
 
-</div> 
-</section>
-
-
-<br>
-<section>
- <div class="imagenes1">
-
-  <div class="productos">
-      <h2 style="text-align: center;">Gorra</h2>
-      <p style="text-align: center;">Gorra tipo baseball SWEET</p>
-       </div>
-
-<img src="images/producto 8 gorra.jpg" alt="">
-
-</div> 
-</section>
-
-<br>
-<section>
-  <div class="imagenes1">
-
-<img src="images/producto 9 gorra kangol.jpg" alt="">
-
-<div class="productos">
-<h2 style="text-align: center;">Kangol Cap</h2>
-<p style="text-align: center;"> Gorra tipo kangol de gamusa tipo 90s</p>
-</div>
-
-</div> 
-</section>
-
-
-<br>
-<section>
- <div class="imagenes1">
-
-  <div class="productos">
-      <h2 style="text-align: center;">Pañuelo</h2>
-      <p style="text-align: center;">Pañuelo de seda con estampado tipo gypsy</p>
-       </div>
-
-<img src="images/prod 1o pañuelo.jpg" alt="">
-
-</div> 
-</section>
-
-    
 </body>
 </html>
+
+
+

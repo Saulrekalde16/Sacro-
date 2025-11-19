@@ -1,134 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>joyeria</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Joyería - DeLaCream Studio</title>
 </head>
 <body>
-    <header>
 
-        <div class="navbar">
-          
-            <a href="index.html"><img src="images/sacro logo.jpg" alt="Logo"></a>
-      
-         
-          <h1>Joyeria</h1>
-      
-         
-          <div class="menu">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-        </div>
-      
-      </header>
-
-      <br>
-      <section>
-        <div class="imagenes1">
-
-    <img src="images/joyeria.jpg" alt="">
-
-     <div class="productos">
-    <h2 style="text-align: center;">Grillz</h2>
-    <p style="text-align: center;"> Grillz con tallados con figuras africanas</p>
-     </div>
-     
-     </div> 
-     </section>
-      
-
-     <br>
-     <section>
-       <div class="imagenes1">
-
-        <img src="images/Anillo sacro 2.jpg" alt="">
-
-    <div class="productos">
-   <h2 style="text-align: center;">Anillo</h2>
-   <p style="text-align: center;"> Anillo de oro, inspirado en le religiosidad</p>
+<header>
+  <div class="navbar">
+    <a href="index.html"><img src="images/sacro-logo.jpg" alt="Logo"></a>
+    <h1>Joyería</h1>
+    <div class="menu">
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
-    
-    </div> 
-    </section>
-
-
-    <br>
-    <section>
-      <div class="imagenes1">
-
-        <img src="images/cadena sacro 3.jpg" alt="">
-
-   <div class="productos">
-  <h2 style="text-align: center;">Cadena</h2>
-  <p style="text-align: center;"> Cadena de oro estilo mexicano, piedras de colores, inspiracion maya</p>
-   </div>
-   
-   </div> 
-   </section>
-
-
-   <br>
-   <section>
-     <div class="imagenes1">
-
-        <img src="images/arete sacro 4.jpg" alt="">
-
-  <div class="productos">
- <h2 style="text-align: center;">Arete</h2>
- <p style="text-align: center;"> Arete big size de plata, puesto como accesorio llamativo</p>
   </div>
-  
-  </div> 
-  </section>
+</header>
 
+<nav id="mobileMenu" class="mobile-menu">
+  <a href="productos.html">Productos</a>
+  <a href="joyeria.html">Joyería</a>
+  <a href="index.html#contactForm">Formulario</a>
+</nav>
 
-  <br>
-  <section>
-    <div class="imagenes1">
+<section class="text-section">
+  <h1>Joyería for the Cream</h1>
+  <p>Piezas de stock limitado, 3d3</p>
 
-        <img src="images/rosario sacro 5.jpg" alt="">
+  <div class="cards-section">
+    <div class="card">
+      <img src="images/Anillo-sacro-2.jpg" alt="Anillo premium">
+      <h3>TrapQueen</h3>
+      <p>Plata — silver 925</p>
+      <span class="precio">$ 50.000</span>
+    </div>
 
- <div class="productos">
-<h2 style="text-align: center;">Rosario</h2>
-<p style="text-align: center;">Rosario de oro con detalles renacentista</p>
- </div>
- 
- </div> 
- </section>
+    <div class="card">
+      <img src="images/cadena-sacro-3.jpg" alt="Cadena Designer">
+      <h3>Kult</h3>
+      <p>Cultura de religión</p>
+      <span class="precio">$ 40.000</span>
+    </div>
 
-
- <br>
- <section>
-   <div class="imagenes1">
-
-    <img src="images/accesorio 6.jpg" alt="">
-
-<div class="productos">
-<h2 style="text-align: center;">Western</h2>
-<p style="text-align: center;">Accesorio western de revolver hecho en oro</p>
-</div>
-
-</div> 
+    <div class="card">
+      <img src="images/pulsera-minimal.jpg" alt="Pulsera Minimal">
+      <h3>Pulsera Minimal</h3>
+      <p>Estilo limpio y moderno.</p>
+      <span class="precio">$ 45.000</span>
+    </div>
+  </div>
 </section>
 
+<footer class="footer">
+  <div class="footer-section">
+    <h3>Sobre nosotros</h3>
+    <p>Joyas de alto nivel hechas con precisión.</p>
+  </div>
+  <div class="footer-section">
+    <h3>Contacto</h3>
+    <p>Email: nofakehoney@delacream.com</p>
+    <p>WhatsApp: +54 1166837887</p>
+  </div>
+  <div class="footer-section">
+    <h3>Síguenos</h3>
+    <a href="#">Instagram</a>
+    <a href="#">TikTok</a>
+  </div>
+</footer>
 
-<br>
-<section>
-  <div class="imagenes1">
+<script>
+  const menuBtn = document.querySelector('.menu');
+  const mobileMenu = document.getElementById('mobileMenu');
 
-    <img src="images/arete 7.jpg" alt="">
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+  });
+</script>
 
-<div class="productos">
-<h2 style="text-align: center;">Arete</h2>
-<p style="text-align: center;"> Arete renacentista, hecho en oro</p>
-</div>
-
-</div> 
-</section>
-    
 </body>
 </html>
+
+  
